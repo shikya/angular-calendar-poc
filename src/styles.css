@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+.cal-today{
+    background-color: #fff !important;
+}
+.cal-today .calendar-day-badge{
+    background-color: #f06d40 !important;
+}
+.cal-hour-segment.cal-hour-start{
+    position: relative !important;
+}
+.cal-hour-segment.cal-hour-start .cal-time{
+    position: absolute !important;
+    top: -17px !important;
+}
+
+div.cal-hour{
+    border-top: thin dashed #e1e1e1 !important;
+}
+div.cal-hour:first{
+    margin-top: 30px !important;
+}
+.cal-events{
+    margin-top: 30px !important;
+}
+
+mwl-calendar-day-view-event .cal-event{
+    border-style: none !important;
+    border-color: #f06d40 !important;
+    border-width: 2px !important;
+    border-left-style: solid !important;
+    border-radius: 0px !important;
+    background-color: rgba(0, 0, 0, 0.16) !important;   
+}
+
+.cal-hour-segment{
+    border: none !important;
+    background-color: none !important;
+}
+
+.cal-day-view .cal-hour{
+    background-color: #fff !important;
+}
