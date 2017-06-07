@@ -1,0 +1,22 @@
+.cell-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cal-cell-top{
+    position: relative;
+}
+.calendar-day-badge{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    background-color: #696969;
+    border-radius: 50%;
+    color: white;
+}
